@@ -23,7 +23,7 @@ export default function LookbookPage() {
         <h1 className="font-bold text-[15px] tracking-[0.2em] text-black uppercase">
           Lookbook
         </h1>
-        <p className="text-[11px] text-[#494949] tracking-[0.05em] leading-relaxed">
+        <p className="text-[11px] text-[#494949] tracking-wider leading-relaxed">
           No lookbook yet.
           <br />
           Check back soon.

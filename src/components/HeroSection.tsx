@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { siteConfig } from "@/data/links";
 
 const CIRCLE_SIZE = 96; // px
 const OVERLAP = 0.4;    // 40% of circle overlaps the hero image

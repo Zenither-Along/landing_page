@@ -41,7 +41,5 @@ export const links: LinkItem[] = [
 export const siteConfig = {
   brandName: "MRIZO",
   brandTagline: "CORNER",
-  tagline: "Clothing for every corner\nof your life.",
-  lookbookUrl: "https://mrizocorner.com/lookbook",
   footerYear: "2026",
 };
