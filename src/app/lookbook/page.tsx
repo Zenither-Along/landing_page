@@ -17,7 +17,7 @@ export default function LookbookPage() {
       try {
         const { data, error } = await supabase
           .from("lookbook_images")
-          .select("id, storage_path, alt_text, display_order, created_at")
+          .select("id, storage_path, alt_text, is_visible, display_order, file_size_bytes, created_at")
           .eq("is_visible", true)
           .order("display_order", { ascending: true })
           .order("created_at", { ascending: false });
