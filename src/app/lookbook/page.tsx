@@ -147,7 +147,7 @@ function PublicImagePreviewModal({ url, onClose }: { url: string; onClose: () =>
     return () => window.removeEventListener("keydown", onKey);
   }, [onClose]);
 
-  const whatsappMessage = encodeURIComponent(`Hi MRIZO CORNER, I'm interested in ordering this product:\n\n${url}`);
+  const whatsappMessage = encodeURIComponent(`Hi MRIZO CORNER, I'm interested in this product:\n\n${url}`);
   const whatsappUrl = `https://wa.me/919101547103?text=${whatsappMessage}`;
 
   return (
@@ -166,7 +166,7 @@ function PublicImagePreviewModal({ url, onClose }: { url: string; onClose: () =>
 
       {/* Image Container */}
       <div
-        className="relative max-w-full md:max-w-4xl max-h-[75vh] md:max-h-[80vh] rounded-[12px] overflow-hidden shadow-2xl flex-shrink-0"
+        className="relative max-w-full md:max-w-4xl max-h-[75vh] md:max-h-[80vh] rounded-[12px] overflow-hidden shadow-2xl shrink-0"
         onClick={(e) => e.stopPropagation()}
       >
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -175,7 +175,7 @@ function PublicImagePreviewModal({ url, onClose }: { url: string; onClose: () =>
 
       {/* WhatsApp Order Button */}
       <div 
-        className="mt-6 md:mt-8 w-full max-w-[400px] flex-shrink-0"
+        className="mt-6 md:mt-8 w-full max-w-[400px] shrink-0"
         onClick={(e) => e.stopPropagation()}
       >
         <a

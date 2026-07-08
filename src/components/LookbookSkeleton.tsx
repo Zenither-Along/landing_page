@@ -10,7 +10,7 @@ export default function LookbookSkeleton() {
       {heights.map((h, i) => (
         <div
           key={i}
-          className={`w-full ${h} rounded-[8px] bg-gray-100 overflow-hidden relative`}
+          className={`w-full ${h} rounded-[8px] bg-gray-100 overflow-hidden relative break-inside-avoid mb-3`}
         >
           <div className="absolute inset-0 -translate-x-full animate-[shimmer_1.5s_infinite] bg-gradient-to-r from-transparent via-white/60 to-transparent" />
         </div>
